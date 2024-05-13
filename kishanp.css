@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+h1{
+    color: rgb(131, 12, 12);
+    text-decoration: dotted;
+}
+div{
+    
+    display: flex;
+    filter:   brightness(2);
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+    rotate: 45deg;
+
+    animation: my 2s  3s infinite normal;
+    @keyframes my {
+        0%{
+            rotate:none;
+        }
+        50%{
+            rotate : 180deg;
+        }
+        100%{
+            rotate:360deg;
+        }
+        
+    }
+    
+
+}
